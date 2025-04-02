@@ -4,21 +4,7 @@ import java.util.Arrays;
 
 public class Anagram {
     public static boolean CheckAnagram(String s , String t ){
-          if(s.length() != t.length()) return falsGiven two strings s and t, return true if t is an anagram of s, and false otherwise.
-
-
-
-                Example 1:
-
-        Input: s = "anagram", t = "nagaram"
-
-        Output: true
-
-        Example 2:
-
-        Input: s = "rat", t = "car"
-
-        Output: falsee;
+          if(s.length() != t.length()) return false;
 
           char [] S1 = s.toCharArray();
           char [] T1 = t.toCharArray();
